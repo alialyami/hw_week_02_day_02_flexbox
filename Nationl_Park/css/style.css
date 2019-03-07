@@ -2,13 +2,46 @@
 /* header & nav */
 
 header {
+display: flex;
+flex-direction: space-around;
+
+
+
 
 }
 
 header .logo, header nav {
+flex-direction: row;
+/* align-items: flex-start; */
+align-items: flex-end;
+align-items: stretch;
 
 }
 
+nav ul{
+  display: flex;
+  list-style: none;
+  /* position: absolute; */
+  float: right;
+  
+  
+}
+
+.aboutbtn{
+  width: 100px;
+  text-align: center;
+  margin-left: 550px
+  
+}
+div.feat-right{
+  display: flex;
+ 
+}
+div img{
+  display:felx;
+  flex-direction:flex-start;
+
+}
 
 .container .aboutrow {
 
@@ -156,6 +189,9 @@ nav ul li {
 .aboutrow {
   background-color: #d0a064;
   padding: 15px;
+  display: flex;
+
+  
 }
 
 .aboutcol {
